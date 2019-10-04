@@ -36,6 +36,7 @@ body {
 		align-items: center;
 	}
 	.main-nav{
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -120,7 +121,12 @@ body {
 		display: flex;
 		align-items: center;
 	}
+	.main-nav__list{
+		padding: 0;
+		margin: 0;
+	}
 	.main-nav__links{
+		display: inline;
 		padding: 20px 30px;
 	}
 }
