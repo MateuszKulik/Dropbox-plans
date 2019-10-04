@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
 </head>
 <body>
@@ -18,7 +18,12 @@
 			<a href="#">
 				<img class="main-header__logo" src="resources/img/logo.png">
 			</a>
-			<ul class="main-nav__list is-invincible">
+			<div class="main-nav__hamburger js-main-nav__hamburger">
+				<span class="hamburger__line is-closed js-hamburger__line"></span>
+				<span class="hamburger__line is-closed js-hamburger__line"></span>
+				<span class="hamburger__line is-closed js-hamburger__line"></span>
+			</div>
+			<ul class="main-nav__list is-invincible js-main-nav__list">
 				<li><a class="main-nav__links" href="#">Kontakt z działem sprzedaży</a></li>
 				<li><a class="main-nav__links" href="#">Pytania posprzedażowe</a></li>
 			</ul>
@@ -39,6 +44,6 @@
 <footer class="main-footer">
 	<p>Footer</p>
 </footer>
-
+<script type="text/javascript" src="resources/js/scripts.js"></script>
 </body>
 </html>
