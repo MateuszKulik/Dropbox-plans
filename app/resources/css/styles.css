@@ -13,6 +13,59 @@ body {
 }
 
 
+.s2{
+	font-size: 12px;
+}
+
+.s1{
+	font-size: 14px;
+}
+
+
+.t1{
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+.t2{
+	font-size: 24px;
+	line-height: 1.6em;
+}
+
+.t3{
+	font-size: 30px;
+	line-height: 1.8em;
+}
+
+
+
+/* Common styles */
+
+
+.section-margin{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Styles the header */
 
@@ -134,13 +187,26 @@ body {
 
 
 
+/* Styles the pricing info section */
 
+.prcing-info__intro{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 
+.prcing-info__intro__heading{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.8em;
+}
 
-
-
-
-
+.prcing-info__intro__text span{
+	color: #3496ea;
+	font-weight: bold;
+}
 
 
 
