@@ -253,13 +253,26 @@ body {
 	margin-bottom: 20px;
 }
 
+.pricing-plans__plan--featued{
+	background-color: #f0f7fd;
+}
+
 .plan__heading{
 	height: 80px;
 	background-color: #f4faff;
 }
 
+.plan__heading--featured{
+	background-color: #0071e0;
+}
+
+
 .plan__text{
 	padding: 15px;
+}
+
+.plan__text--featured{
+	color: white;
 }
 
 .plan__body{
@@ -295,9 +308,32 @@ body {
 	margin-right: 10px;
 }
 
+.plan__cta{
+	display: flex;
+	justify-content: center;
+}
 
+.plan__button{
+	margin: 40px 0;
+	padding: 20px 35px;
+	border: 1px solid #3496ea;
+	color: #3496ea;
+	background-color: white;
+	border-radius: 5px;
+}
 
+.plan__button--featured{
+	background-color: #0071e0;
+	color: white;
+}
 
+.plan__button:hover{
+	background-color: #f0f7fd;
+}
+
+.plan__button--featured:hover{
+	background-color: #3398ea;
+}
 
 
 
