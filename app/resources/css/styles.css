@@ -268,28 +268,32 @@ body {
 
 .plan__body__wrap{
 	display: flex;
-	flex-wrap: nowrap;
 	align-items: center;
+	margin-bottom: 20px;
+
 }
 
 .plan__body__price{
 	margin-right: 20px;
-
-	flex-shrink: 1;
-
 }
 
 
 .plan__body__descr{
-	margin-bottom: 20px;
-
-	flex-shrink: 5;
+		flex: 1;
 }
 
 
+.plan-features__feature{
+	line-height: 3em;
+	background: url(../img/tick.svg) 0px 15px no-repeat;
+	background-size: 25px;
+    padding-left: 50px;
+}
 
-
-
+.plan-features__icon{
+	max-width: 30px;
+	margin-right: 10px;
+}
 
 
 
