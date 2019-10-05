@@ -45,6 +45,8 @@ body {
 .section-margin{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .module-margin{
@@ -52,12 +54,6 @@ body {
 	margin-bottom: 40px;
 }
 
-
-.section-wrap{
-	max-width: 1170px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
 
 
 
@@ -81,6 +77,14 @@ body {
 	background-color: #3496ea;
 	width: 100%;
 	z-index: 99;
+	display: flex;
+    justify-content: center;
+}
+
+.main-header__container{
+	width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -92,7 +96,6 @@ body {
 	.main-header__container{
 		max-width: 1170px;
 		height: 100%;
-		margin: 0 auto;
 		display: flex;
 		align-items: center;
 	}
@@ -116,6 +119,7 @@ body {
 	cursor: pointer;
 	float: right;
 	padding: 20px;
+	padding-right: 0px;
 }
 
 
@@ -198,7 +202,27 @@ body {
 
 /* Styles the pricing info section */
 
-.prcing-info__intro{
+.pricing-info{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pricing-info__wrap{
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+	.pricing-info__wrap{
+		max-width: 1170px;
+	}
+}
+
+.pricing-info__intro{
 	width: 100%;
 	text-align: center;
 	display: flex;
@@ -207,13 +231,13 @@ body {
 	flex-direction: column;
 }
 
-.prcing-info__intro__heading{
+.pricing-info__intro__heading{
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 1.8em;
 }
 
-.prcing-info__intro__text span{
+.pricing-info__intro__text span{
 	color: #3496ea;
 	font-weight: bold;
 }
@@ -238,10 +262,29 @@ body {
 	padding: 15px;
 }
 
+.plan__body{
+	margin: 20px;
+}
+
+.plan__body__wrap{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.plan__body__price{
+	margin-right: 20px;
+
+	flex-shrink: 1;
+
+}
 
 
+.plan__body__descr{
+	margin-bottom: 20px;
 
-
+	flex-shrink: 5;
+}
 
 
 
