@@ -273,8 +273,6 @@ body {
 .pricing-plans__plan_wrap{
 	display: flex;
 	flex-flow: column;
-	justify-content: space-between;
-	align-items: stretch;
 }
 
 .plan__top-offer{
