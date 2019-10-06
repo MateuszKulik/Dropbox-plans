@@ -218,7 +218,7 @@ body {
 
 @media (min-width: 768px) {
 	.pricing-info__wrap{
-		max-width: 1170px;
+		max-width: 1000px;
 	}
 }
 
@@ -248,13 +248,62 @@ body {
 	flex-direction: column;
 }
 
-.pricing-plans__plan{
-	border: 1px solid #d0d4d9;
-	margin-bottom: 20px;
+
+
+@media (min-width: 768px) {
+	.pricing-plans{
+		flex-flow: row;
+	}
 }
 
-.pricing-plans__plan--featued{
+.pricing-plans__plan_wrap{
+	border: 1px solid #d0d4d9;
+}
+
+.pricing-plans__plan{
+	margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+	.pricing-plans__plan{
+		width: 100%;
+	}
+}
+
+.pricing-plans__plan_wrap{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.plan__top-offer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 100%;
 	background-color: #f0f7fd;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border: 1px solid #f0f7fd;
+}
+
+
+@media (min-width: 768px) {
+	.pricing-plans__plan_wrap--margin-top{
+		margin-top: 70px;
+	}
+}
+
+.pricing-plans__plan_wrap--featued{
+	background-color: #f0f7fd;
+}
+
+@media (min-width: 768px) {
+	.pricing-plans__plan--margin{
+		margin-left: 2%;
+	}
 }
 
 .plan__heading{
@@ -297,10 +346,15 @@ body {
 
 
 .plan-features__feature{
-	line-height: 3em;
+	line-height: 2em;
 	background: url(../img/tick.svg) 0px 15px no-repeat;
 	background-size: 25px;
     padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.plan-features__feature--featured{
+	font-weight: bold;
 }
 
 .plan-features__icon{
