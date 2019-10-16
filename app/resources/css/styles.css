@@ -45,8 +45,8 @@ body {
 .section-margin{
 	margin-top: 40px;
 	margin-bottom: 40px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .module-margin{
@@ -404,6 +404,110 @@ body {
 .plan__button--featured:hover{
 	background-color: #3398ea;
 }
+
+
+
+/* Styles for FAQ section */
+
+
+.FAQ{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ__wrap{
+	width: 100%;
+}
+
+
+@media (min-width: 768px) {
+	.FAQ__wrap{
+		max-width: 1000px;
+	}
+}
+
+
+.FAQ__heading{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.8em;
+}
+
+
+.FAQ__body{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	.FAQ__body{
+		flex-direction: row;
+	}
+}
+
+.FAQ__body__left{
+	flex: 1;
+}
+
+.FAQ__body__right{
+	flex: 1;
+}
+
+
+
+@media (min-width: 768px) {
+	.FAQ__body__left{
+		padding: 10px 80px 40px 0px;
+	}
+
+	.FAQ__body__right{
+		padding: 10px 0px 40px 80px;
+	}
+}
+
+
+
+
+.FAQ__body__q-heading{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.8em;
+	margin-top: 40px;
+	padding-bottom: 10px; 
+}
+
+
+
+
+
+
+
+.FAQ__body__q-text{
+	line-height: 1.6em;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
