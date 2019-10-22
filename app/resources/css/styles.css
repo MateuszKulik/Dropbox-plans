@@ -259,6 +259,7 @@ a{
 	margin-top: 50px;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 
@@ -266,55 +267,57 @@ a{
 
 /* Reset Select */
 .change-currency__wrap__select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  outline: 0;
-  box-shadow: none;
-  border: 0 !important;
-  background: #2c3e50;
-  background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	outline: 0;
+	box-shadow: none;
+	border: 0 !important;
+	background-image: none;
 }
 /* Remove IE arrow */
 .change-currency__wrap__select::-ms-expand {
-  display: none;
+	display: none;
 }
 
 
 .change-currency__wrap {
-  position: relative;
-  display: flex;
-  width: 20em;
-  height: 3em;
-  line-height: 3;
-  background: #2c3e50;
-  overflow: hidden;
-  border-radius: .25em;
+	position: relative;
+	display: flex;
+	width: 6em;
+	height: 2.5em;
+	line-height: 2.5;
+	overflow: hidden;
+	border-radius: .25em;
 }
+
 .change-currency__wrap__select {
-  flex: 1;
-  padding: 0 .5em;
-  color: #fff;
-  cursor: pointer;
+	background: #e7f1f9;
+    flex: 1;
+    padding: 0 .5em;
+    color: #222;
+    cursor: pointer;
 }
+
 /* Arrow */
-.change-currency__wrap__select::after {
-  content: '\25BC';
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0 1em;
-  background: #34495e;
-  cursor: pointer;
-  pointer-events: none;
-  -webkit-transition: .25s all ease;
-  -o-transition: .25s all ease;
-  transition: .25s all ease;
+.change-currency__wrap::after {
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 .8em;
+	color: #3496ea;
+	background: #cee9ff;
+	cursor: pointer;
+	pointer-events: none;
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
 }
 /* Transition */
-.change-currency__wrap__select:hover::after {
-  color: #f39c12;
+.change-currency__wrap:hover::after {
+	color: #025fb9;
 }
 
 /* https://codepen.io/raubaca/pen/VejpQP */
